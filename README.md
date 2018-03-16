@@ -22,6 +22,10 @@ Pending https://www.terraform.io/docs/providers/aws/r/s3_bucket_notification.htm
 
 Key notes:
 
+ staging
     **Ensure credentials aren't checked into github (can use gitignore although local creds are defined in the provier file)
+
+    **Ensure credentials aren't checked into github (can use gitignore although local creds are defined in the provier file)
+ master
 
 https://www.terraform.io/docs/providers/aws/r/s3_bucket.html[1] https://www.terraform.io/docs/providers/aws/r/iam_access_key.html[2] https://www.terraform.io/docs/providers/aws/d/iam_policy_document.html[3] https://www.terraform.io/docs/providers/aws/r/iam_role_policy_attachment.html[4]
