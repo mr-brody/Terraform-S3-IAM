@@ -11,11 +11,12 @@ Monitor actions on the bucket via a lambda function. The function will send noti
 * create a lambda function to trigger when new files are added to the bucket
 * create an SNS topic template
 * create an SNS subscription template
+* triggers on new resource creation
+* sns topic will send notiication to lambda, lambda sends webhook to the desired url
 
 Pending
 https://www.terraform.io/docs/providers/aws/r/s3_bucket_notification.html
-  -triggers on new resource creation
-  -lambda code will send details to an sns endpoint
+  
 
 Key notes:
 
