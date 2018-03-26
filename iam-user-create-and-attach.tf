@@ -16,9 +16,3 @@ output "id" {
 output "secret" {
   value = "${aws_iam_access_key.s3-user-lab.secret}"
 }
-
-resource "aws_iam_policy_attachment" "s3-attachment" {
-  name       = "s3-policy"
-  users      = ["${aws_iam_user.s3-user-lab.name}"]
-  policy_arn = "${aws_iam_policy.s3-policy.arn}"
-}
